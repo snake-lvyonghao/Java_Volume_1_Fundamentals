@@ -18,6 +18,9 @@ public class InnerClass {
 
         JOptionPane.showMessageDialog(null,"Quit Program?");
         System.exit(0);
+
+        TalkingClock javvverer = new TalkingClock(1000,true);
+        TalkingClock.TimerPrint lister = javvverer.new TimerPrint();
     }
 }
 
@@ -37,12 +40,30 @@ class TalkingClock
     }
 
     public void strat(){
-        ActionListener listener = new TimePrinter();
-        Timer t = new Timer(interval,listener);
-        t.start();
+        //内部类
+//        ActionListener listener = new TimerPrint();
+//        Timer t = new Timer(interval,listener);
+//        t.start();
+
+        //匿名类
+//        ActionListener listener = new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                System.out.println("At tone ,the time is :" + new Date());
+//                if(beep) Toolkit.getDefaultToolkit().beep();
+//            }
+//        };
+//        Timer timer = new Timer(interval,listener);
+
+        //lambda
+        Timer timer = new Timer(this.interval,e -> {
+           System.out.println("At the tone is:" + new Date());
+           if(this.beep) Toolkit.getDefaultToolkit().beep();
+        });
+        timer.start();
     }
 
-    public class TimerPrinter implements ActionListener
+    public class TimerPrint implements ActionListener
     {
         @Override
         public void actionPerformed(ActionEvent e) {
