@@ -7,7 +7,7 @@ package 第八章;
 
 public class PairTest1 {
     public static void main(String[] args){
-        String[] words = {"Marry", "had", "z", "alittle", "lamb"};
+        String[] words = {"Marry", "had", "z", "little", "lamb"};
         Pair<String> mm = ArrayAlg.minmaxn(words);
         System.out.println("min=" + mm.getFirst());
         System.out.println("max=" + mm.getSecond());
