@@ -7,6 +7,7 @@ public class PairTest3 {
         Manager ceo = new Manager("Gus Greedy",800000,2003,12,15);
         Manager cfo = new Manager("Sid Sneaky",600000,2003,12,15);
         Pair<Manager> buddies = new Pair<>(ceo,cfo);
+        printBuddies(buddies);
 
         ceo.setBonus(100000000);
         cfo.setBonus(5000000);
@@ -22,7 +23,7 @@ public class PairTest3 {
     public static void printBuddies(Pair<? extends Emplyoee> p){
         Emplyoee first = p.getFirst();
         Emplyoee second = p.getSecond();
-        System.out.println(first.getName() + "and" + second.getName() + "are buddies.");
+        System.out.println(first.getName() + " and " + second.getName() + " are buddies.");
     }
 
     public static void minmaxBonus(Manager[] a,Pair<? super Manager> result)
