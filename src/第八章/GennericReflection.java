@@ -109,7 +109,7 @@ public class GennericReflection {
         }
         else if(type instanceof GenericArrayType)
         {
-            GenericArrayType t =(GenericArrayType) type;
+            GenericArrayType t = (GenericArrayType) type;
             System.out.print("");
             printType(t.getGenericComponentType(),isDefinition);
             System.out.print("[]");
