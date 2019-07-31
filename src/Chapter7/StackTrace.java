@@ -1,6 +1,5 @@
-package 第七章;
+package Chapter7;
 import java.util.*;
-import java.util.logging.Logger;
 
 /**
  * @version 1.00 2019-3-30
