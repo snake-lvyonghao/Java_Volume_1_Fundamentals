@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="307d6861-4768-47de-868a-46998d2ca148" name="腾讯云" url="http://203.195.217.147">
+        <fileTransfer host="203.195.217.147" port="22" privateKey="C:\Users\78672\Documents\windows" rootFolder="/down" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

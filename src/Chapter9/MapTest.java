@@ -1,6 +1,6 @@
 package Chapter9;
 
-import 第六章.Employee;
+import Chapter6.Employee;
 
 import java.util.HashMap;
 import java.util.Map;

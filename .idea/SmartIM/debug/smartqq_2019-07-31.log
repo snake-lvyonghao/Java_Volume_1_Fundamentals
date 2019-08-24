@@ -1,0 +1,120 @@
+2019-07-31 11:32:07.793 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-07-31 11:32:07.977 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 E:\java核心技术\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-07-31 11:32:07.977 [Thread-4] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-07-31 11:32:22.482 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2019-07-31 11:32:22.482 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2019-07-31 11:32:23.119 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2019-07-31 11:32:23.157 [Thread-4] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (s.web2.qq.com)
+	at java.base/java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at okhttp3.Dns$1.lookup(Dns.java:39)
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171)
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:137)
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:82)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:171)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at com.scienjus.smartqq.client.SmartQQApi.get(SmartQQApi.java:505)
+	at com.scienjus.smartqq.client.SmartQQApi.getVfwebqq(SmartQQApi.java:211)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:111)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-07-31 11:33:05.897 [Thread-9] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-07-31 11:33:05.929 [Thread-9] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 E:\java核心技术\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-07-31 11:33:05.929 [Thread-9] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-07-31 11:33:07.063 [Thread-9] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2019-07-31 11:33:07.063 [Thread-9] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2019-07-31 11:33:07.577 [Thread-9] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2019-07-31 11:33:07.578 [Thread-9] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (s.web2.qq.com)
+	at java.base/java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at okhttp3.Dns$1.lookup(Dns.java:39)
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171)
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:137)
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:82)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:171)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at com.scienjus.smartqq.client.SmartQQApi.get(SmartQQApi.java:505)
+	at com.scienjus.smartqq.client.SmartQQApi.getVfwebqq(SmartQQApi.java:211)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:111)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-07-31 11:35:35.331 [Thread-13] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-07-31 11:35:35.497 [Thread-13] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 E:\java核心技术\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-07-31 11:35:35.497 [Thread-13] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-07-31 11:35:50.378 [Thread-14] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2019-07-31 11:35:50.404 [Thread-14] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 E:\java核心技术\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2019-07-31 11:35:50.404 [Thread-14] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2019-07-31 11:36:34.480 [Thread-13] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2019-07-31 11:36:49.184 [Thread-14] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:195)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
